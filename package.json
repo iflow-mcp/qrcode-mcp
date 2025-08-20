@@ -1,10 +1,11 @@
 {
-  "name": "qrcode-mcp",
+  "name": "@iflow-mcp/qrcode-mcp",
   "version": "1.0.0",
   "description": "generate qrcode for mcp",
-  "private": true,
   "type": "module",
-  "files": [
+  "bin": {
+    "qrcode-mcp": "./build/index.js"
+  },  "files": [
     "build"
   ],
   "scripts": {
